@@ -1,0 +1,8 @@
+server:
+  port: 6091
+spring:
+  datasource:
+    url: jdbc:mysql://194.233.72.202:3306/sales_inventory
+    username: sales_inventory_user
+    password: dFV@X@L7hyaSF5
+

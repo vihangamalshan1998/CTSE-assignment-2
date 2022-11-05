@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: item-management-service
+spec:
+  selector:
+    app: item-management-service
+  ports:
+    - port: 80
+      targetPort: 9092
